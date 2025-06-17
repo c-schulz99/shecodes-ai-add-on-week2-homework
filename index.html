@@ -7,26 +7,28 @@
     <title>AI poem generator</title>
 </head>
 <body>
-    <header>
-        <h1>AI poem generator</h1>
-    </header>
-    <main>
-        <form>
-            <input type="text" placeholder="Enter the topic of the poem..." autofocus required autocomplete="off" />
-            <input type="submit" />
-        </form>
-        <div>
-            The poem will be shown here
-        </div>
-    </main>
-    <footer>
-        This Ai project was coded by 
-        <a href="https://github.com/c-schulz99" target="_blank">Charlett-Lorel Schulz</a> 
-        and is open-sourced on 
-        <a href="https://github.com/c-schulz99/shecodes-ai-add-on-week2-homework" target="_blank">GitHub</a> 
-        and hosted on 
-        <a href="https://aipoemgenerator-homework.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+    <div class="container">
+        <header>
+            <h1>AI poem generator</h1>
+        </header>
+        <main>
+            <form>
+                <input type="text" placeholder="Enter the topic of the poem..." autofocus required autocomplete="off" class="instructions" />
+                <input type="submit" class="submit-button" />
+            </form>
+            <div class="poem">
+                The poem will be shown here
+            </div>
+        </main>
+        <footer>
+            This Ai project was coded by 
+            <a href="https://github.com/c-schulz99" target="_blank">Charlett-Lorel Schulz</a> 
+            and is open-sourced on 
+            <a href="https://github.com/c-schulz99/shecodes-ai-add-on-week2-homework" target="_blank">GitHub</a> 
+            and hosted on 
+            <a href="https://aipoemgenerator-homework.netlify.app/" target="_blank">Netlify</a>
+        </footer>
+    </div>
     <script src="src/index.js"></script>
 </body>
 </html>
